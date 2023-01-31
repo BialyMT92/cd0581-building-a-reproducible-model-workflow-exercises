@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/b7b1f7a692c544ef8d7fa33c44bfb6b8/artifacts
+end_time: 1674401951744
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b7b1f7a692c544ef8d7fa33c44bfb6b8
+run_name: blushing-boar-448
+run_uuid: b7b1f7a692c544ef8d7fa33c44bfb6b8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674401689690
+status: 4
+tags: []
+user_id: bialekm

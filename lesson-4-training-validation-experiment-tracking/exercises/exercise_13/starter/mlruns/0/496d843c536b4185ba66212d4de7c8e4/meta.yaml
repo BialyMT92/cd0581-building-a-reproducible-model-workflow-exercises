@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/mlruns/0/496d843c536b4185ba66212d4de7c8e4/artifacts
+end_time: 1675107499923
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 496d843c536b4185ba66212d4de7c8e4
+run_name: debonair-fish-815
+run_uuid: 496d843c536b4185ba66212d4de7c8e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675107063143
+status: 3
+tags: []
+user_id: bialekm
