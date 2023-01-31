@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/c4089d2c57934ae6acda79a4f1cbd8de/artifacts
+end_time: 1674753442369
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c4089d2c57934ae6acda79a4f1cbd8de
+run_name: clumsy-squirrel-70
+run_uuid: c4089d2c57934ae6acda79a4f1cbd8de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674753422482
+status: 4
+tags: []
+user_id: bialekm

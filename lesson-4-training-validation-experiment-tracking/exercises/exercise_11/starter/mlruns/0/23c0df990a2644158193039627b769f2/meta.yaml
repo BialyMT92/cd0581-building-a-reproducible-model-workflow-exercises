@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/23c0df990a2644158193039627b769f2/artifacts
+end_time: 1675090192119
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 23c0df990a2644158193039627b769f2
+run_name: wise-fowl-170
+run_uuid: 23c0df990a2644158193039627b769f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675090068694
+status: 3
+tags: []
+user_id: bialekm

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/4ee1ab5487324da393f7d949233ece02/artifacts
+end_time: 1674753415751
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4ee1ab5487324da393f7d949233ece02
+run_name: enthused-boar-890
+run_uuid: 4ee1ab5487324da393f7d949233ece02
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674753391292
+status: 3
+tags: []
+user_id: bialekm

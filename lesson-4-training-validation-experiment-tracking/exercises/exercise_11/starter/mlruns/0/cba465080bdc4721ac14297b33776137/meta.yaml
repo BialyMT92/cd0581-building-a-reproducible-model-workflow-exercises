@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/cba465080bdc4721ac14297b33776137/artifacts
+end_time: 1675088045284
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cba465080bdc4721ac14297b33776137
+run_name: upbeat-gull-586
+run_uuid: cba465080bdc4721ac14297b33776137
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675088014594
+status: 3
+tags: []
+user_id: bialekm

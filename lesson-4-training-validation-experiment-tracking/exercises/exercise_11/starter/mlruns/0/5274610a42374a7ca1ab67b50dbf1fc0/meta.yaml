@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/5274610a42374a7ca1ab67b50dbf1fc0/artifacts
+end_time: 1675089888114
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5274610a42374a7ca1ab67b50dbf1fc0
+run_name: calm-eel-12
+run_uuid: 5274610a42374a7ca1ab67b50dbf1fc0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675089832605
+status: 3
+tags: []
+user_id: bialekm

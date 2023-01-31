@@ -1,0 +1,7 @@
+2023-01-30 15:47:22,396 Downloading and reading train artifact
+[34m[1mwandb[39m[22m: Network error resolved after 0:00:45.150860, resuming normal operation.
+2023-01-30 15:47:35,891 Extracting target from dataframe
+2023-01-30 15:47:35,894 Splitting train/val
+2023-01-30 15:47:35,932 Setting up pipeline
+2023-01-30 15:47:35,938 Fitting
+2023-01-30 15:47:49,481 Scoring

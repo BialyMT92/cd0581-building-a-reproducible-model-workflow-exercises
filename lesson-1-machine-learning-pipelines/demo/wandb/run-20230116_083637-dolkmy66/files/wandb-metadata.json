@@ -1,0 +1,56 @@
+{
+    "os": "Linux-5.10.102.1-microsoft-standard-WSL2-x86_64-with-glibc2.31",
+    "python": "3.10.8",
+    "heartbeatAt": "2023-01-16T07:36:38.994224",
+    "startedAt": "2023-01-16T07:36:37.587924",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "lesson-1-machine-learning-pipelines/demo/Upload and version artifacts-Copy1.ipynb",
+    "root": "/home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises",
+    "git": {
+        "remote": "https://github.com/BialyMT92/cd0581-building-a-reproducible-model-workflow-exercises.git",
+        "commit": "f8ceef1ef5f8d5e8ac5995dbf09d0c6d8be15827"
+    },
+    "email": null,
+    "host": "DESKTOP-AKO1G91",
+    "username": "bialekm",
+    "executable": "/home/bialekm/miniconda3/bin/python",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2294.688,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2294.688,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2294.688,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2294.688,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2294.688,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 250.98248672485352,
+        "used": 4.8367919921875
+    },
+    "memory": {
+        "total": 12.378826141357422
+    }
+}

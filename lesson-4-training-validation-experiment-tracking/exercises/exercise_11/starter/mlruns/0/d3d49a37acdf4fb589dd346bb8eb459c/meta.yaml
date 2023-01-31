@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/d3d49a37acdf4fb589dd346bb8eb459c/artifacts
+end_time: 1675089790183
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d3d49a37acdf4fb589dd346bb8eb459c
+run_name: chill-ant-368
+run_uuid: d3d49a37acdf4fb589dd346bb8eb459c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675089741120
+status: 3
+tags: []
+user_id: bialekm

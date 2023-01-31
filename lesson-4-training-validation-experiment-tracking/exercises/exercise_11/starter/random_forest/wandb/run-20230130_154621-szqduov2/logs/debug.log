@@ -1,0 +1,86 @@
+2023-01-30 15:46:21,208 INFO    MainThread:31120 [wandb_setup.py:_flush():68] Configure stats pid to 31120
+2023-01-30 15:46:21,208 INFO    MainThread:31120 [wandb_setup.py:_flush():68] Loading settings from /home/bialekm/.config/wandb/settings
+2023-01-30 15:46:21,208 INFO    MainThread:31120 [wandb_setup.py:_flush():68] Loading settings from /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/settings
+2023-01-30 15:46:21,208 INFO    MainThread:31120 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'run_group': 'dev', 'project': 'exercise_11', '_require_service': 'True'}
+2023-01-30 15:46:21,208 INFO    MainThread:31120 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/run.py', 'program': '/home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/run.py'}
+2023-01-30 15:46:21,208 INFO    MainThread:31120 [wandb_init.py:_log_setup():478] Logging user logs to /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154621-szqduov2/logs/debug.log
+2023-01-30 15:46:21,209 INFO    MainThread:31120 [wandb_init.py:_log_setup():479] Logging internal logs to /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154621-szqduov2/logs/debug-internal.log
+2023-01-30 15:46:21,209 INFO    MainThread:31120 [wandb_init.py:init():518] calling init triggers
+2023-01-30 15:46:21,209 INFO    MainThread:31120 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2023-01-30 15:46:21,210 INFO    MainThread:31120 [wandb_init.py:init():571] starting backend
+2023-01-30 15:46:21,210 INFO    MainThread:31120 [wandb_init.py:init():575] setting up manager
+2023-01-30 15:46:21,215 INFO    MainThread:31120 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-01-30 15:46:21,222 INFO    MainThread:31120 [wandb_init.py:init():582] backend started and connected
+2023-01-30 15:46:21,230 INFO    MainThread:31120 [wandb_init.py:init():670] updated telemetry
+2023-01-30 15:46:21,247 INFO    MainThread:31120 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2023-01-30 15:46:59,338 INFO    Thread-1  :31120 [retry.py:__call__():169] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fd857e840d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd857e840d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 128, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 241, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd857e840d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2023-01-30 15:47:13,693 INFO    MainThread:31120 [wandb_run.py:_on_init():2121] communicating current version
+2023-01-30 15:47:18,695 INFO    MainThread:31120 [wandb_run.py:_on_init():2125] got version response None
+2023-01-30 15:47:18,695 INFO    MainThread:31120 [wandb_init.py:init():758] starting run threads in backend
+2023-01-30 15:47:22,393 INFO    MainThread:31120 [wandb_run.py:_console_start():2101] atexit reg
+2023-01-30 15:47:22,395 INFO    MainThread:31120 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2023-01-30 15:47:22,395 INFO    MainThread:31120 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2023-01-30 15:47:22,395 INFO    MainThread:31120 [wandb_run.py:_redirect():2046] Redirects installed.
+2023-01-30 15:47:22,396 INFO    MainThread:31120 [wandb_init.py:init():798] run started, returning control to user process
+2023-01-30 15:47:35,937 INFO    MainThread:31120 [wandb_run.py:_config_callback():1249] config_cb None None {'random_forest': {'n_estimators': 100, 'criterion': 'gini', 'max_depth': 28, 'min_samples_split': 2, 'min_samples_leaf': 1, 'min_weight_fraction_leaf': 0.0, 'max_features': 'auto', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_impurity_split': None, 'bootstrap': True, 'oob_score': False, 'n_jobs': None, 'random_state': None, 'verbose': 0, 'warm_start': False, 'class_weight': 'balanced', 'ccp_alpha': 0.0, 'max_samples': None}, 'tfidf': {'max_features': 150}, 'features': {'numerical': ['danceability', 'energy', 'loudness', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo', 'duration_ms'], 'categorical': ['time_signature', 'key'], 'nlp': ['text_feature']}}
+2023-01-30 15:48:05,358 WARNING MsgRouterThr:31120 [router.py:message_loop():77] message_loop has been closed

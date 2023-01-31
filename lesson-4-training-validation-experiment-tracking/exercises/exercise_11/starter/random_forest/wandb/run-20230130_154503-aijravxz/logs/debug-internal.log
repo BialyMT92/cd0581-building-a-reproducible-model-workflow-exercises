@@ -1,0 +1,83 @@
+2023-01-30 15:45:03,419 INFO    StreamThr :31088 [internal.py:wandb_internal():87] W&B internal server running at pid: 31088, started at: 2023-01-30 15:45:03.418036
+2023-01-30 15:45:03,422 DEBUG   HandlerThread:31088 [handler.py:handle_request():144] handle_request: status
+2023-01-30 15:45:03,428 INFO    WriterThread:31088 [datastore.py:open_for_write():85] open: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154503-aijravxz/run-aijravxz.wandb
+2023-01-30 15:45:03,431 DEBUG   SenderThread:31088 [sender.py:send():334] send: header
+2023-01-30 15:45:03,436 DEBUG   SenderThread:31088 [sender.py:send():334] send: run
+2023-01-30 15:45:08,441 DEBUG   HandlerThread:31088 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:45:13,444 DEBUG   HandlerThread:31088 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:45:18,447 DEBUG   HandlerThread:31088 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:45:23,450 DEBUG   HandlerThread:31088 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:45:28,455 DEBUG   HandlerThread:31088 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:45:33,459 DEBUG   HandlerThread:31088 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:45:36,781 INFO    SenderThread:31088 [retry.py:__call__():169] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7f7e28166670>, 'Connection to api.wandb.ai timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f7e28166670>, 'Connection to api.wandb.ai timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 128, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 241, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/requests/adapters.py", line 553, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f7e28166670>, 'Connection to api.wandb.ai timed out. (connect timeout=10)'))
+2023-01-30 15:45:38,463 DEBUG   HandlerThread:31088 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:45:43,466 DEBUG   HandlerThread:31088 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:45:48,470 DEBUG   HandlerThread:31088 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:45:53,473 DEBUG   HandlerThread:31088 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:45:58,477 DEBUG   HandlerThread:31088 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:46:03,481 DEBUG   HandlerThread:31088 [handler.py:handle_request():144] handle_request: cancel
+2023-01-30 15:46:03,483 DEBUG   HandlerThread:31088 [handler.py:handle_request():144] handle_request: cancel
+2023-01-30 15:46:05,516 DEBUG   HandlerThread:31088 [handler.py:handle_request():144] handle_request: shutdown
+2023-01-30 15:46:05,517 INFO    HandlerThread:31088 [handler.py:finish():841] shutting down handler
+2023-01-30 15:46:06,486 INFO    WriterThread:31088 [datastore.py:close():299] close: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154503-aijravxz/run-aijravxz.wandb
+2023-01-30 15:46:09,352 DEBUG   SenderThread:31088 [sender.py:send():343] Record cancelled: run
+2023-01-30 15:46:09,352 INFO    SenderThread:31088 [sender.py:finish():1491] shutting down sender

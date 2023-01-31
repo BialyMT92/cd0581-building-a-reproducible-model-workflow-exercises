@@ -1,4 +1,4 @@
-name: download_data
+name: pytest
 conda_env: conda.yml
 
 entry_points:

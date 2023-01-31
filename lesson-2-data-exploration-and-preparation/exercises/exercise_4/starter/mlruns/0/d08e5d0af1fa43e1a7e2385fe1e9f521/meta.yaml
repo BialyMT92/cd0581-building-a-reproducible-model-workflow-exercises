@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/d08e5d0af1fa43e1a7e2385fe1e9f521/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d08e5d0af1fa43e1a7e2385fe1e9f521
+run_name: delicate-cow-850
+run_uuid: d08e5d0af1fa43e1a7e2385fe1e9f521
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674581591642
+status: 1
+tags: []
+user_id: bialekm

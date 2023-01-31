@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/4f6b7cb5aef94585bf8821b539d21e63/artifacts
+end_time: 1675105320861
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4f6b7cb5aef94585bf8821b539d21e63
+run_name: bright-robin-725
+run_uuid: 4f6b7cb5aef94585bf8821b539d21e63
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675105285542
+status: 4
+tags: []
+user_id: bialekm

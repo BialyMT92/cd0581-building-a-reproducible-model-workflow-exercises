@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/71537c678c7f416896383a55bda13987/artifacts
+end_time: 1674584973991
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 71537c678c7f416896383a55bda13987
+run_name: hilarious-fawn-945
+run_uuid: 71537c678c7f416896383a55bda13987
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674584968463
+status: 4
+tags: []
+user_id: bialekm

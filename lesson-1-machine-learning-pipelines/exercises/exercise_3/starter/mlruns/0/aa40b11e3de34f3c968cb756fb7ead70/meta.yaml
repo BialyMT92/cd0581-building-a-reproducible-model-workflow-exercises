@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/aa40b11e3de34f3c968cb756fb7ead70/artifacts
+end_time: 1674413631281
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aa40b11e3de34f3c968cb756fb7ead70
+run_name: secretive-kit-503
+run_uuid: aa40b11e3de34f3c968cb756fb7ead70
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674413609778
+status: 3
+tags: []
+user_id: bialekm

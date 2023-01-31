@@ -1,0 +1,9 @@
+
+2023-01-30 15:44:45,574 Downloading and reading train artifact
+2023-01-30 15:44:47,946 Extracting target from dataframe
+2023-01-30 15:44:47,950 Splitting train/val
+2023-01-30 15:44:48,003 Setting up pipeline
+2023-01-30 15:44:48,015 Fitting
+2023-01-30 15:45:02,572 Scoring
+[34m[1mwandb[39m[22m: Network error (ConnectTimeout), entering retry loop.
+2023-01-30 15:45:48,412 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3f26180ca0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')': /api/5288891/envelope/

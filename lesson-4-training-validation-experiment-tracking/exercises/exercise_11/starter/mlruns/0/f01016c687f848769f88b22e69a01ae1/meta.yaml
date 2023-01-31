@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/f01016c687f848769f88b22e69a01ae1/artifacts
+end_time: 1675090066178
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f01016c687f848769f88b22e69a01ae1
+run_name: learned-koi-799
+run_uuid: f01016c687f848769f88b22e69a01ae1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675089876613
+status: 4
+tags: []
+user_id: bialekm

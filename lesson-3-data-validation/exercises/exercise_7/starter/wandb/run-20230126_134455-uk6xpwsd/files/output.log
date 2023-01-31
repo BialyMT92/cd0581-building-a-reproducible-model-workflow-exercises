@@ -1,0 +1,287 @@
+[1mcollected 3 items                                                                                                                                                                                                                      
+test_data.py::test_column_presence_and_type [32mPASSED
+test_data.py::test_class_names [31mFAILED
+test_data.py::test_column_ranges [31mFAILED
+=============================================================================================================== FAILURES ===============================================================================================================
+[31m[1m___________________________________________________________________________________________________________ test_class_names ___________________________________________________________________________________________________________
+self = Index(['Unnamed: 0', 'danceability', 'energy', 'key', 'loudness', 'mode',
+       'speechiness', 'acousticness', 'instr..., 'type', 'duration_ms', 'time_signature', 'genre',
+       'song_name', 'title', 'text_feature'],
+      dtype='object')
+key = True, method = None, tolerance = None
+    def get_loc(self, key, method=None, tolerance=None):
+        """
+        Get integer location, slice or boolean mask for requested label.
+        Parameters
+        ----------
+        key : label
+        method : {None, 'pad'/'ffill', 'backfill'/'bfill', 'nearest'}, optional
+            * default: exact matches only.
+            * pad / ffill: find the PREVIOUS index value if no exact match.
+            * backfill / bfill: use NEXT index value if no exact match
+            * nearest: use the NEAREST index value if no exact match. Tied
+              distances are broken by preferring the larger index value.
+            .. deprecated:: 1.4
+                Use index.get_indexer([item], method=...) instead.
+        tolerance : int or float, optional
+            Maximum distance from index value for inexact matches. The value of
+            the index at the matching location must satisfy the equation
+            ``abs(index[loc] - key) <= tolerance``.
+        Returns
+        -------
+        loc : int if unique index, slice if monotonic index, else mask
+        Examples
+        --------
+        >>> unique_index = pd.Index(list('abc'))
+        >>> unique_index.get_loc('b')
+        1
+        >>> monotonic_index = pd.Index(list('abbc'))
+        >>> monotonic_index.get_loc('b')
+        slice(1, 3, None)
+        >>> non_monotonic_index = pd.Index(list('abcb'))
+        >>> non_monotonic_index.get_loc('b')
+        array([False,  True, False,  True])
+        """
+        if method is None:
+            if tolerance is not None:
+                raise ValueError(
+                    "tolerance argument only valid if using pad, "
+                    "backfill or nearest lookups"
+                )
+            casted_key = self._maybe_cast_indexer(key)
+            try:
+>               return self._engine.get_loc(casted_key)
+[31m[1m/home/bialekm/miniconda3/envs/mlflow-6670d8db0dd4b3ba68294a02bdc9fdf18f497442/lib/python3.11/site-packages/pandas/core/indexes/base.py[39m[22m:3802:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+>   ???
+[31m[1mpandas/_libs/index.pyx[39m[22m:138:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+>   ???
+[31m[1mpandas/_libs/index.pyx[39m[22m:165:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+>   ???
+[31m[1mpandas/_libs/hashtable_class_helper.pxi[39m[22m:5745:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+>   ???
+[31m[1mE   KeyError: True
+[31m[1mpandas/_libs/hashtable_class_helper.pxi[39m[22m:5753: KeyError
+[33mThe above exception was the direct cause of the following exception:
+data =        Unnamed: 0  danceability  energy  key  loudness  mode  ...  duration_ms  time_signature      genre             ...            NaN       Best of Hardstyle 2020                         Best of Hardstyle 2020
+[41975 rows x 19 columns]
+    def test_class_names(data):
+        known_classes = [
+            "Dark Trap",
+            "Underground Rap",
+            "Trap Metal",
+            "Emo",
+            "Rap",
+            "RnB",
+            "Pop",
+            "Hiphop",
+            "techhouse",
+            "techno",
+            "trance",
+            "psytrance",
+            "trap",
+            "dnb",
+            "hardstyle",
+        ]
+>       assert data[data['genre'].isin(known_classes).all()]
+[31m[1mtest_data.py[39m[22m:70:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+[31m[1m/home/bialekm/miniconda3/envs/mlflow-6670d8db0dd4b3ba68294a02bdc9fdf18f497442/lib/python3.11/site-packages/pandas/core/frame.py[39m[22m:3807: in __getitem__
+    indexer = self.columns.get_loc(key)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+self = Index(['Unnamed: 0', 'danceability', 'energy', 'key', 'loudness', 'mode',
+       'speechiness', 'acousticness', 'instr..., 'type', 'duration_ms', 'time_signature', 'genre',
+       'song_name', 'title', 'text_feature'],
+      dtype='object')
+key = True, method = None, tolerance = None
+    def get_loc(self, key, method=None, tolerance=None):
+        """
+        Get integer location, slice or boolean mask for requested label.
+        Parameters
+        ----------
+        key : label
+        method : {None, 'pad'/'ffill', 'backfill'/'bfill', 'nearest'}, optional
+            * default: exact matches only.
+            * pad / ffill: find the PREVIOUS index value if no exact match.
+            * backfill / bfill: use NEXT index value if no exact match
+            * nearest: use the NEAREST index value if no exact match. Tied
+              distances are broken by preferring the larger index value.
+            .. deprecated:: 1.4
+                Use index.get_indexer([item], method=...) instead.
+        tolerance : int or float, optional
+            Maximum distance from index value for inexact matches. The value of
+            the index at the matching location must satisfy the equation
+            ``abs(index[loc] - key) <= tolerance``.
+        Returns
+        -------
+        loc : int if unique index, slice if monotonic index, else mask
+        Examples
+        --------
+        >>> unique_index = pd.Index(list('abc'))
+        >>> unique_index.get_loc('b')
+        1
+        >>> monotonic_index = pd.Index(list('abbc'))
+        >>> monotonic_index.get_loc('b')
+        slice(1, 3, None)
+        >>> non_monotonic_index = pd.Index(list('abcb'))
+        >>> non_monotonic_index.get_loc('b')
+        array([False,  True, False,  True])
+        """
+        if method is None:
+            if tolerance is not None:
+                raise ValueError(
+                    "tolerance argument only valid if using pad, "
+                    "backfill or nearest lookups"
+                )
+            casted_key = self._maybe_cast_indexer(key)
+            try:
+                return self._engine.get_loc(casted_key)
+            except KeyError as err:
+>               raise KeyError(key) from err
+[31m[1mE               KeyError: True
+[31m[1m/home/bialekm/miniconda3/envs/mlflow-6670d8db0dd4b3ba68294a02bdc9fdf18f497442/lib/python3.11/site-packages/pandas/core/indexes/base.py[39m[22m:3804: KeyError
+[31m[1m__________________________________________________________________________________________________________ test_column_ranges __________________________________________________________________________________________________________
+self = Index(['Unnamed: 0', 'danceability', 'energy', 'key', 'loudness', 'mode',
+       'speechiness', 'acousticness', 'instr..., 'type', 'duration_ms', 'time_signature', 'genre',
+       'song_name', 'title', 'text_feature'],
+      dtype='object')
+key = True, method = None, tolerance = None
+    def get_loc(self, key, method=None, tolerance=None):
+        """
+        Get integer location, slice or boolean mask for requested label.
+        Parameters
+        ----------
+        key : label
+        method : {None, 'pad'/'ffill', 'backfill'/'bfill', 'nearest'}, optional
+            * default: exact matches only.
+            * pad / ffill: find the PREVIOUS index value if no exact match.
+            * backfill / bfill: use NEXT index value if no exact match
+            * nearest: use the NEAREST index value if no exact match. Tied
+              distances are broken by preferring the larger index value.
+            .. deprecated:: 1.4
+                Use index.get_indexer([item], method=...) instead.
+        tolerance : int or float, optional
+            Maximum distance from index value for inexact matches. The value of
+            the index at the matching location must satisfy the equation
+            ``abs(index[loc] - key) <= tolerance``.
+        Returns
+        -------
+        loc : int if unique index, slice if monotonic index, else mask
+        Examples
+        --------
+        >>> unique_index = pd.Index(list('abc'))
+        >>> unique_index.get_loc('b')
+        1
+        >>> monotonic_index = pd.Index(list('abbc'))
+        >>> monotonic_index.get_loc('b')
+        slice(1, 3, None)
+        >>> non_monotonic_index = pd.Index(list('abcb'))
+        >>> non_monotonic_index.get_loc('b')
+        array([False,  True, False,  True])
+        """
+        if method is None:
+            if tolerance is not None:
+                raise ValueError(
+                    "tolerance argument only valid if using pad, "
+                    "backfill or nearest lookups"
+                )
+            casted_key = self._maybe_cast_indexer(key)
+            try:
+>               return self._engine.get_loc(casted_key)
+[31m[1m/home/bialekm/miniconda3/envs/mlflow-6670d8db0dd4b3ba68294a02bdc9fdf18f497442/lib/python3.11/site-packages/pandas/core/indexes/base.py[39m[22m:3802:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+>   ???
+[31m[1mpandas/_libs/index.pyx[39m[22m:138:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+>   ???
+[31m[1mpandas/_libs/index.pyx[39m[22m:165:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+>   ???
+[31m[1mpandas/_libs/hashtable_class_helper.pxi[39m[22m:5745:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+>   ???
+[31m[1mE   KeyError: True
+[31m[1mpandas/_libs/hashtable_class_helper.pxi[39m[22m:5753: KeyError
+[33mThe above exception was the direct cause of the following exception:
+data =        Unnamed: 0  danceability  energy  key  loudness  mode  ...  duration_ms  time_signature      genre             ...            NaN       Best of Hardstyle 2020                         Best of Hardstyle 2020
+[41975 rows x 19 columns]
+    def test_column_ranges(data):
+        ranges = {
+            "time_signature": (1, 5),
+            "key": (0, 11),
+            "danceability": (0, 1),
+            "energy": (0, 1),
+            "loudness": (-35, 5),
+            "speechiness": (0, 1),
+            "acousticness": (0, 1),
+            "instrumentalness": (0, 1),
+            "liveness": (0, 1),
+            "valence": (0, 1),
+            "tempo": (50, 250),
+            "duration_ms": (20000, 1000000),
+        }
+        for col_name, (minimum, maximum) in ranges.items():
+>           assert data[data[col_name].between(minimum, maximum).all()]
+[31m[1mtest_data.py[39m[22m:97:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+[31m[1m/home/bialekm/miniconda3/envs/mlflow-6670d8db0dd4b3ba68294a02bdc9fdf18f497442/lib/python3.11/site-packages/pandas/core/frame.py[39m[22m:3807: in __getitem__
+    indexer = self.columns.get_loc(key)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+self = Index(['Unnamed: 0', 'danceability', 'energy', 'key', 'loudness', 'mode',
+       'speechiness', 'acousticness', 'instr..., 'type', 'duration_ms', 'time_signature', 'genre',
+       'song_name', 'title', 'text_feature'],
+      dtype='object')
+key = True, method = None, tolerance = None
+    def get_loc(self, key, method=None, tolerance=None):
+        """
+        Get integer location, slice or boolean mask for requested label.
+        Parameters
+        ----------
+        key : label
+        method : {None, 'pad'/'ffill', 'backfill'/'bfill', 'nearest'}, optional
+            * default: exact matches only.
+            * pad / ffill: find the PREVIOUS index value if no exact match.
+            * backfill / bfill: use NEXT index value if no exact match
+            * nearest: use the NEAREST index value if no exact match. Tied
+              distances are broken by preferring the larger index value.
+            .. deprecated:: 1.4
+                Use index.get_indexer([item], method=...) instead.
+        tolerance : int or float, optional
+            Maximum distance from index value for inexact matches. The value of
+            the index at the matching location must satisfy the equation
+            ``abs(index[loc] - key) <= tolerance``.
+        Returns
+        -------
+        loc : int if unique index, slice if monotonic index, else mask
+        Examples
+        --------
+        >>> unique_index = pd.Index(list('abc'))
+        >>> unique_index.get_loc('b')
+        1
+        >>> monotonic_index = pd.Index(list('abbc'))
+        >>> monotonic_index.get_loc('b')
+        slice(1, 3, None)
+        >>> non_monotonic_index = pd.Index(list('abcb'))
+        >>> non_monotonic_index.get_loc('b')
+        array([False,  True, False,  True])
+        """
+        if method is None:
+            if tolerance is not None:
+                raise ValueError(
+                    "tolerance argument only valid if using pad, "
+                    "backfill or nearest lookups"
+                )
+            casted_key = self._maybe_cast_indexer(key)
+            try:
+                return self._engine.get_loc(casted_key)
+            except KeyError as err:
+>               raise KeyError(key) from err
+[31m[1mE               KeyError: True
+[31m[1m/home/bialekm/miniconda3/envs/mlflow-6670d8db0dd4b3ba68294a02bdc9fdf18f497442/lib/python3.11/site-packages/pandas/core/indexes/base.py[39m[22m:3804: KeyError
+[36m[1m======================================================================================================= short test summary info ========================================================================================================
+[31mFAILED[39m test_data.py::[1mtest_class_names[22m - KeyError: True
+[31mFAILED[39m test_data.py::[1mtest_column_ranges[22m - KeyError: True
+[31m===================================================================================================== [1m2 failed[39m[22m, [32m1 passed[31m in 8.39s ======================================================================================================

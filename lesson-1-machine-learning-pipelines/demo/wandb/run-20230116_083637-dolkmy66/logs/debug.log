@@ -1,0 +1,57 @@
+2023-01-16 08:36:37,598 INFO    MainThread:2328 [wandb_setup.py:_flush():68] Configure stats pid to 2328
+2023-01-16 08:36:37,598 INFO    MainThread:2328 [wandb_setup.py:_flush():68] Loading settings from /home/bialekm/.config/wandb/settings
+2023-01-16 08:36:37,598 INFO    MainThread:2328 [wandb_setup.py:_flush():68] Loading settings from /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/demo/wandb/settings
+2023-01-16 08:36:37,599 INFO    MainThread:2328 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-01-16 08:36:37,599 INFO    MainThread:2328 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-01-16 08:36:37,599 INFO    MainThread:2328 [wandb_init.py:_log_setup():478] Logging user logs to /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/demo/wandb/run-20230116_083637-dolkmy66/logs/debug.log
+2023-01-16 08:36:37,599 INFO    MainThread:2328 [wandb_init.py:_log_setup():479] Logging internal logs to /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/demo/wandb/run-20230116_083637-dolkmy66/logs/debug-internal.log
+2023-01-16 08:36:37,600 INFO    MainThread:2328 [wandb_init.py:_jupyter_setup():428] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f8e420d04c0>
+2023-01-16 08:36:37,601 INFO    MainThread:2328 [wandb_init.py:init():518] calling init triggers
+2023-01-16 08:36:37,601 INFO    MainThread:2328 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2023-01-16 08:36:37,602 INFO    MainThread:2328 [wandb_init.py:init():571] starting backend
+2023-01-16 08:36:37,602 INFO    MainThread:2328 [wandb_init.py:init():575] setting up manager
+2023-01-16 08:36:37,607 INFO    MainThread:2328 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-01-16 08:36:37,614 INFO    MainThread:2328 [wandb_init.py:init():582] backend started and connected
+2023-01-16 08:36:37,631 INFO    MainThread:2328 [wandb_run.py:_label_probe_notebook():1202] probe notebook
+2023-01-16 08:36:37,633 INFO    MainThread:2328 [wandb_run.py:_label_probe_notebook():1212] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-01-16 08:36:37,636 INFO    MainThread:2328 [wandb_init.py:init():670] updated telemetry
+2023-01-16 08:36:37,903 INFO    MainThread:2328 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2023-01-16 08:36:38,672 INFO    MainThread:2328 [wandb_run.py:_on_init():2121] communicating current version
+2023-01-16 08:36:38,965 INFO    MainThread:2328 [wandb_run.py:_on_init():2125] got version response 
+2023-01-16 08:36:38,965 INFO    MainThread:2328 [wandb_init.py:init():758] starting run threads in backend
+2023-01-16 08:36:41,072 INFO    MainThread:2328 [wandb_run.py:_console_start():2101] atexit reg
+2023-01-16 08:36:41,073 INFO    MainThread:2328 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2023-01-16 08:36:41,073 INFO    MainThread:2328 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2023-01-16 08:36:41,074 INFO    MainThread:2328 [wandb_run.py:_redirect():2046] Redirects installed.
+2023-01-16 08:36:41,075 INFO    MainThread:2328 [wandb_init.py:init():798] run started, returning control to user process
+2023-01-16 08:36:41,075 INFO    MainThread:2328 [wandb_init.py:_pause_backend():391] pausing backend
+2023-01-16 08:36:41,076 INFO    MainThread:2328 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-01-16 08:36:48,057 INFO    MainThread:2328 [wandb_init.py:_resume_backend():400] resuming backend
+2023-01-16 08:36:48,093 INFO    MainThread:2328 [wandb_init.py:_pause_backend():391] pausing backend
+2023-01-16 08:36:48,094 INFO    MainThread:2328 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-01-16 08:36:50,552 INFO    MainThread:2328 [wandb_init.py:_resume_backend():400] resuming backend
+2023-01-16 08:36:50,999 INFO    MainThread:2328 [wandb_init.py:_pause_backend():391] pausing backend
+2023-01-16 08:36:50,999 INFO    MainThread:2328 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-01-16 08:36:58,554 INFO    MainThread:2328 [wandb_init.py:_resume_backend():400] resuming backend
+2023-01-16 08:36:58,586 INFO    MainThread:2328 [wandb_setup.py:_flush():68] Configure stats pid to 2328
+2023-01-16 08:36:58,587 INFO    MainThread:2328 [wandb_setup.py:_flush():68] Loading settings from /home/bialekm/.config/wandb/settings
+2023-01-16 08:36:58,587 INFO    MainThread:2328 [wandb_setup.py:_flush():68] Loading settings from /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/demo/wandb/settings
+2023-01-16 08:36:58,587 INFO    MainThread:2328 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-01-16 08:36:58,587 INFO    MainThread:2328 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-01-16 08:36:58,587 INFO    MainThread:2328 [wandb_init.py:_log_setup():478] Logging user logs to /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/demo/wandb/run-20230116_083658-jv1d0ilv/logs/debug.log
+2023-01-16 08:36:58,588 INFO    MainThread:2328 [wandb_init.py:_log_setup():479] Logging internal logs to /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/demo/wandb/run-20230116_083658-jv1d0ilv/logs/debug-internal.log
+2023-01-16 08:36:58,588 INFO    MainThread:2328 [wandb_init.py:init():518] calling init triggers
+2023-01-16 08:36:58,588 INFO    MainThread:2328 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2023-01-16 08:36:58,588 INFO    MainThread:2328 [wandb_init.py:init():537] re-initializing run, found existing run on stack: dolkmy66
+2023-01-16 08:36:58,596 INFO    MainThread:2328 [wandb_run.py:_finish():1844] finishing run bialymt92/Demo 1/dolkmy66
+2023-01-16 08:36:58,596 INFO    MainThread:2328 [jupyter.py:save_history():449] not saving jupyter history
+2023-01-16 08:36:58,597 INFO    MainThread:2328 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-01-16 08:36:58,597 INFO    MainThread:2328 [wandb_init.py:_jupyter_teardown():410] cleaning up jupyter logic
+2023-01-16 08:36:58,597 INFO    MainThread:2328 [wandb_run.py:_atexit_cleanup():2070] got exitcode: 0
+2023-01-16 08:36:58,597 INFO    MainThread:2328 [wandb_run.py:_restore():2053] restore
+2023-01-16 08:36:58,598 INFO    MainThread:2328 [wandb_run.py:_restore():2059] restore done
+2023-01-16 08:37:08,055 INFO    MainThread:2328 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2023-01-16 08:37:08,056 INFO    MainThread:2328 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2023-01-16 08:37:08,066 INFO    MainThread:2328 [wandb_run.py:_footer_sync_info():3383] logging synced files

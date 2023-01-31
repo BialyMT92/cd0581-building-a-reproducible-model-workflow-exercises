@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/fd1ab1b0e7c249369929144148d75f86/artifacts
+end_time: 1675089460172
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fd1ab1b0e7c249369929144148d75f86
+run_name: amazing-tern-236
+run_uuid: fd1ab1b0e7c249369929144148d75f86
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675089376454
+status: 3
+tags: []
+user_id: bialekm

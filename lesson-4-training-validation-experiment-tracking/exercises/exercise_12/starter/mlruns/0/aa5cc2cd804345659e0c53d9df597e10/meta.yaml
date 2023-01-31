@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/aa5cc2cd804345659e0c53d9df597e10/artifacts
+end_time: 1675105321451
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aa5cc2cd804345659e0c53d9df597e10
+run_name: gifted-auk-167
+run_uuid: aa5cc2cd804345659e0c53d9df597e10
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675105280312
+status: 4
+tags: []
+user_id: bialekm

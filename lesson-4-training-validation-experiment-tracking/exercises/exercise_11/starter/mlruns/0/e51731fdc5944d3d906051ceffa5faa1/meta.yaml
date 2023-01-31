@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/e51731fdc5944d3d906051ceffa5faa1/artifacts
+end_time: 1675089878298
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e51731fdc5944d3d906051ceffa5faa1
+run_name: bedecked-crab-364
+run_uuid: e51731fdc5944d3d906051ceffa5faa1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675089830042
+status: 3
+tags: []
+user_id: bialekm

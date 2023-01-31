@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/cb501be5d49842afbe5e3a8620d1e84f/artifacts
+end_time: 1675105187861
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cb501be5d49842afbe5e3a8620d1e84f
+run_name: calm-squid-159
+run_uuid: cb501be5d49842afbe5e3a8620d1e84f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675104772103
+status: 4
+tags: []
+user_id: bialekm

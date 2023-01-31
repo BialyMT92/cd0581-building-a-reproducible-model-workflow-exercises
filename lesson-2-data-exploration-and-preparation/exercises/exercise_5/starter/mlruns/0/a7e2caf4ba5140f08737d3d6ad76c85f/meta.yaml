@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/a7e2caf4ba5140f08737d3d6ad76c85f/artifacts
+end_time: 1674648937230
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a7e2caf4ba5140f08737d3d6ad76c85f
+run_name: orderly-mare-102
+run_uuid: a7e2caf4ba5140f08737d3d6ad76c85f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674648915246
+status: 4
+tags: []
+user_id: bialekm

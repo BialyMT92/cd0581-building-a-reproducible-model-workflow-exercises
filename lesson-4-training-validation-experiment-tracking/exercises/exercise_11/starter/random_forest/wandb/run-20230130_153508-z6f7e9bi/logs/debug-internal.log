@@ -1,0 +1,95 @@
+2023-01-30 15:35:08,856 INFO    StreamThr :29847 [internal.py:wandb_internal():87] W&B internal server running at pid: 29847, started at: 2023-01-30 15:35:08.854711
+2023-01-30 15:35:08,862 DEBUG   HandlerThread:29847 [handler.py:handle_request():144] handle_request: status
+2023-01-30 15:35:08,868 INFO    WriterThread:29847 [datastore.py:open_for_write():85] open: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_153508-z6f7e9bi/run-z6f7e9bi.wandb
+2023-01-30 15:35:08,871 DEBUG   SenderThread:29847 [sender.py:send():334] send: header
+2023-01-30 15:35:08,887 DEBUG   SenderThread:29847 [sender.py:send():334] send: run
+2023-01-30 15:35:13,892 DEBUG   HandlerThread:29847 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:35:18,895 DEBUG   HandlerThread:29847 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:35:23,898 DEBUG   HandlerThread:29847 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:35:28,903 DEBUG   HandlerThread:29847 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:35:33,907 DEBUG   HandlerThread:29847 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:35:38,911 DEBUG   HandlerThread:29847 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:35:43,436 INFO    SenderThread:29847 [retry.py:__call__():169] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/ssl.py", line 1242, in recv_into
+    return self.read(nbytes, buffer)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/ssl.py", line 1100, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/urllib3/connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 128, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 241, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/lib/python3.9/site-packages/requests/adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+2023-01-30 15:35:43,916 DEBUG   HandlerThread:29847 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:35:48,919 DEBUG   HandlerThread:29847 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:35:53,924 DEBUG   HandlerThread:29847 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:35:58,928 DEBUG   HandlerThread:29847 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:36:03,932 DEBUG   HandlerThread:29847 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:36:08,936 DEBUG   HandlerThread:29847 [handler.py:handle_request():144] handle_request: cancel
+2023-01-30 15:36:08,938 DEBUG   HandlerThread:29847 [handler.py:handle_request():144] handle_request: cancel
+2023-01-30 15:36:09,829 INFO    SenderThread:29847 [dir_watcher.py:__init__():216] watching files in: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_153508-z6f7e9bi/files
+2023-01-30 15:36:09,829 INFO    SenderThread:29847 [sender.py:_start_run_threads():1065] run started: z6f7e9bi with start time 1675089308.854814
+2023-01-30 15:36:09,830 DEBUG   HandlerThread:29847 [handler.py:handle_request():144] handle_request: status_report
+2023-01-30 15:36:10,974 DEBUG   HandlerThread:29847 [handler.py:handle_request():144] handle_request: shutdown
+2023-01-30 15:36:10,974 INFO    HandlerThread:29847 [handler.py:finish():841] shutting down handler
+2023-01-30 15:36:11,831 INFO    SenderThread:29847 [sender.py:finish():1491] shutting down sender
+2023-01-30 15:36:11,832 INFO    SenderThread:29847 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-01-30 15:36:11,832 INFO    WriterThread:29847 [datastore.py:close():299] close: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_153508-z6f7e9bi/run-z6f7e9bi.wandb
+2023-01-30 15:36:12,831 INFO    SenderThread:29847 [dir_watcher.py:finish():392] scan: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_153508-z6f7e9bi/files
+2023-01-30 15:36:12,832 INFO    SenderThread:29847 [dir_watcher.py:finish():406] scan save: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_153508-z6f7e9bi/files/config.yaml config.yaml
+2023-01-30 15:36:12,833 INFO    SenderThread:29847 [file_pusher.py:finish():160] shutting down file pusher
+2023-01-30 15:36:12,833 INFO    SenderThread:29847 [file_pusher.py:join():165] waiting for file pusher
+2023-01-30 15:36:14,400 INFO    Thread-15 :29847 [upload_job.py:push():143] Uploaded file /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_153508-z6f7e9bi/files/config.yaml

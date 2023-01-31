@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/1ee16475f9c94ca4a2f121cb550d9173/artifacts
+end_time: 1674403528212
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1ee16475f9c94ca4a2f121cb550d9173
+run_name: masked-rat-984
+run_uuid: 1ee16475f9c94ca4a2f121cb550d9173
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674403442166
+status: 3
+tags: []
+user_id: bialekm

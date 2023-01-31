@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/b3868808cddb4e978152ffae855e9740/artifacts
+end_time: 1675090190977
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b3868808cddb4e978152ffae855e9740
+run_name: clean-moth-830
+run_uuid: b3868808cddb4e978152ffae855e9740
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675090063960
+status: 3
+tags: []
+user_id: bialekm

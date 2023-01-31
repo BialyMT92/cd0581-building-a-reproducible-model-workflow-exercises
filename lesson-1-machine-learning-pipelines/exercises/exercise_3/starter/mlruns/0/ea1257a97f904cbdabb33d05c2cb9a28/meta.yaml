@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/ea1257a97f904cbdabb33d05c2cb9a28/artifacts
+end_time: 1674399829995
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ea1257a97f904cbdabb33d05c2cb9a28
+run_name: orderly-deer-350
+run_uuid: ea1257a97f904cbdabb33d05c2cb9a28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674399185008
+status: 4
+tags: []
+user_id: bialekm

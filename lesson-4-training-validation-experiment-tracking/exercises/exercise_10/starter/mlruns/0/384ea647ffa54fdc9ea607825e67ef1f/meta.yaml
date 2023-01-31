@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/384ea647ffa54fdc9ea607825e67ef1f/artifacts
+end_time: 1674758861259
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 384ea647ffa54fdc9ea607825e67ef1f
+run_name: sneaky-carp-649
+run_uuid: 384ea647ffa54fdc9ea607825e67ef1f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674758857010
+status: 4
+tags: []
+user_id: bialekm

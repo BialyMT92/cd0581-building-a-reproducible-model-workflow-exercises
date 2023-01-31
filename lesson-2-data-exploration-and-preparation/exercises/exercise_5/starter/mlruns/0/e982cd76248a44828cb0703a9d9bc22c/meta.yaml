@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/e982cd76248a44828cb0703a9d9bc22c/artifacts
+end_time: 1674649158491
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e982cd76248a44828cb0703a9d9bc22c
+run_name: aged-cub-295
+run_uuid: e982cd76248a44828cb0703a9d9bc22c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674649012294
+status: 4
+tags: []
+user_id: bialekm

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/6577a3749baf4aaea3b397fa01e24d3c/artifacts
+end_time: 1674758576244
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6577a3749baf4aaea3b397fa01e24d3c
+run_name: capable-ape-942
+run_uuid: 6577a3749baf4aaea3b397fa01e24d3c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674758405029
+status: 4
+tags: []
+user_id: bialekm

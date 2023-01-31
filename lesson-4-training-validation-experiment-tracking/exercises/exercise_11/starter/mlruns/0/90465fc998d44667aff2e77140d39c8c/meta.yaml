@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/90465fc998d44667aff2e77140d39c8c/artifacts
+end_time: 1675088524705
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 90465fc998d44667aff2e77140d39c8c
+run_name: awesome-hawk-323
+run_uuid: 90465fc998d44667aff2e77140d39c8c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675088497840
+status: 3
+tags: []
+user_id: bialekm

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/b08ef1a381784769ab397660d3ab16c7/artifacts
+end_time: 1675090178760
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b08ef1a381784769ab397660d3ab16c7
+run_name: charming-mare-388
+run_uuid: b08ef1a381784769ab397660d3ab16c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675090066500
+status: 3
+tags: []
+user_id: bialekm

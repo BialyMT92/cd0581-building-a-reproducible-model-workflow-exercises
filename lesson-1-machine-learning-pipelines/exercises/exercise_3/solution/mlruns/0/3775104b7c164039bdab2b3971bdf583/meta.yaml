@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/mlruns/0/3775104b7c164039bdab2b3971bdf583/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3775104b7c164039bdab2b3971bdf583
+run_name: overjoyed-wren-522
+run_uuid: 3775104b7c164039bdab2b3971bdf583
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674400496783
+status: 1
+tags: []
+user_id: bialekm

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/b0039f3eaaa947688f428996987b29af/artifacts
+end_time: 1675089272251
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b0039f3eaaa947688f428996987b29af
+run_name: debonair-shrew-753
+run_uuid: b0039f3eaaa947688f428996987b29af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675089243135
+status: 3
+tags: []
+user_id: bialekm

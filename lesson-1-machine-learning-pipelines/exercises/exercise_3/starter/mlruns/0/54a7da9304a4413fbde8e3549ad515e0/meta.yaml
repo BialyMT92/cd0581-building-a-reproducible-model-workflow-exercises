@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/54a7da9304a4413fbde8e3549ad515e0/artifacts
+end_time: 1674403768639
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 54a7da9304a4413fbde8e3549ad515e0
+run_name: melodic-quail-570
+run_uuid: 54a7da9304a4413fbde8e3549ad515e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674403178414
+status: 4
+tags: []
+user_id: bialekm

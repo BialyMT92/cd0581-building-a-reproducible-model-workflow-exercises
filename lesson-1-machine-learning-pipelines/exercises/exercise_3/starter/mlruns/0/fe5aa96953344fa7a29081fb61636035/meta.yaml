@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/fe5aa96953344fa7a29081fb61636035/artifacts
+end_time: 1674400455281
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fe5aa96953344fa7a29081fb61636035
+run_name: bald-dolphin-543
+run_uuid: fe5aa96953344fa7a29081fb61636035
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674400451657
+status: 4
+tags: []
+user_id: bialekm

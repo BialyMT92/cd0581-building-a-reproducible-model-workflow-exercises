@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/4465f7bf8bb34396bef8ced25cfe7196/artifacts
+end_time: 1675090260173
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4465f7bf8bb34396bef8ced25cfe7196
+run_name: legendary-panda-281
+run_uuid: 4465f7bf8bb34396bef8ced25cfe7196
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675090179046
+status: 3
+tags: []
+user_id: bialekm

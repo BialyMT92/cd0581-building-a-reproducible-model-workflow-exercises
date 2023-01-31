@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/545cb48e072e4d98b4b2fad55c0565fd/artifacts
+end_time: 1675090518412
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 545cb48e072e4d98b4b2fad55c0565fd
+run_name: nosy-auk-659
+run_uuid: 545cb48e072e4d98b4b2fad55c0565fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675090471105
+status: 3
+tags: []
+user_id: bialekm

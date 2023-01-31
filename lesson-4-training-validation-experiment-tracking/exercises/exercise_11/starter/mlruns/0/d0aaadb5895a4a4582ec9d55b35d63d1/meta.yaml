@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/d0aaadb5895a4a4582ec9d55b35d63d1/artifacts
+end_time: 1675090264119
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d0aaadb5895a4a4582ec9d55b35d63d1
+run_name: sedate-horse-649
+run_uuid: d0aaadb5895a4a4582ec9d55b35d63d1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675090196296
+status: 3
+tags: []
+user_id: bialekm

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/383131cba135482bb584c23dd45ea907/artifacts
+end_time: 1675090402442
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 383131cba135482bb584c23dd45ea907
+run_name: likeable-sheep-514
+run_uuid: 383131cba135482bb584c23dd45ea907
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675090331465
+status: 3
+tags: []
+user_id: bialekm

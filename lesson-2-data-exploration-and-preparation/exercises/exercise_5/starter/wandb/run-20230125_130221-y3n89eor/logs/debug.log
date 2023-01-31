@@ -1,0 +1,25 @@
+2023-01-25 13:02:21,135 INFO    MainThread:8868 [wandb_setup.py:_flush():68] Configure stats pid to 8868
+2023-01-25 13:02:21,136 INFO    MainThread:8868 [wandb_setup.py:_flush():68] Loading settings from /home/bialekm/.config/wandb/settings
+2023-01-25 13:02:21,136 INFO    MainThread:8868 [wandb_setup.py:_flush():68] Loading settings from /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/wandb/settings
+2023-01-25 13:02:21,136 INFO    MainThread:8868 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-01-25 13:02:21,136 INFO    MainThread:8868 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/run.py', 'program': 'run.py'}
+2023-01-25 13:02:21,137 INFO    MainThread:8868 [wandb_init.py:_log_setup():478] Logging user logs to /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/wandb/run-20230125_130221-y3n89eor/logs/debug.log
+2023-01-25 13:02:21,137 INFO    MainThread:8868 [wandb_init.py:_log_setup():479] Logging internal logs to /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/wandb/run-20230125_130221-y3n89eor/logs/debug-internal.log
+2023-01-25 13:02:21,138 INFO    MainThread:8868 [wandb_init.py:init():518] calling init triggers
+2023-01-25 13:02:21,138 INFO    MainThread:8868 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2023-01-25 13:02:21,138 INFO    MainThread:8868 [wandb_init.py:init():571] starting backend
+2023-01-25 13:02:21,139 INFO    MainThread:8868 [wandb_init.py:init():575] setting up manager
+2023-01-25 13:02:21,146 INFO    MainThread:8868 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-01-25 13:02:21,153 INFO    MainThread:8868 [wandb_init.py:init():582] backend started and connected
+2023-01-25 13:02:21,157 INFO    MainThread:8868 [wandb_init.py:init():670] updated telemetry
+2023-01-25 13:02:21,181 INFO    MainThread:8868 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2023-01-25 13:02:21,979 INFO    MainThread:8868 [wandb_run.py:_on_init():2121] communicating current version
+2023-01-25 13:02:22,321 INFO    MainThread:8868 [wandb_run.py:_on_init():2125] got version response 
+2023-01-25 13:02:22,321 INFO    MainThread:8868 [wandb_init.py:init():758] starting run threads in backend
+2023-01-25 13:02:24,641 INFO    MainThread:8868 [wandb_run.py:_console_start():2101] atexit reg
+2023-01-25 13:02:24,643 INFO    MainThread:8868 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2023-01-25 13:02:24,644 INFO    MainThread:8868 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2023-01-25 13:02:24,644 INFO    MainThread:8868 [wandb_run.py:_redirect():2046] Redirects installed.
+2023-01-25 13:02:24,645 INFO    MainThread:8868 [wandb_init.py:init():798] run started, returning control to user process
+2023-01-25 13:02:34,196 WARNING MsgRouterThr:8868 [router.py:message_loop():77] message_loop has been closed

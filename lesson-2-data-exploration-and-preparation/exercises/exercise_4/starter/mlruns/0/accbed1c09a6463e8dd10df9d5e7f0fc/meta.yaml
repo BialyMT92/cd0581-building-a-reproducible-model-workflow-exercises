@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/accbed1c09a6463e8dd10df9d5e7f0fc/artifacts
+end_time: 1674592856259
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: accbed1c09a6463e8dd10df9d5e7f0fc
+run_name: likeable-flea-384
+run_uuid: accbed1c09a6463e8dd10df9d5e7f0fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674592536910
+status: 3
+tags: []
+user_id: bialekm

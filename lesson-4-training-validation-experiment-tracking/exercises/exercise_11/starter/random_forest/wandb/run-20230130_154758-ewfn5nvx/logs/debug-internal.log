@@ -1,0 +1,238 @@
+2023-01-30 15:47:58,275 INFO    StreamThr :31213 [internal.py:wandb_internal():87] W&B internal server running at pid: 31213, started at: 2023-01-30 15:47:58.274147
+2023-01-30 15:47:58,281 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: status
+2023-01-30 15:47:58,285 INFO    WriterThread:31213 [datastore.py:open_for_write():85] open: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/run-ewfn5nvx.wandb
+2023-01-30 15:47:58,291 DEBUG   SenderThread:31213 [sender.py:send():334] send: header
+2023-01-30 15:47:58,299 DEBUG   SenderThread:31213 [sender.py:send():334] send: run
+2023-01-30 15:47:59,564 INFO    SenderThread:31213 [dir_watcher.py:__init__():216] watching files in: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files
+2023-01-30 15:47:59,564 INFO    SenderThread:31213 [sender.py:_start_run_threads():1065] run started: ewfn5nvx with start time 1675090078.274218
+2023-01-30 15:47:59,565 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: summary_record
+2023-01-30 15:47:59,565 INFO    SenderThread:31213 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-30 15:47:59,570 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: check_version
+2023-01-30 15:47:59,570 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: check_version
+2023-01-30 15:48:00,358 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: run_start
+2023-01-30 15:48:00,360 DEBUG   HandlerThread:31213 [system_info.py:__init__():31] System info init
+2023-01-30 15:48:00,360 DEBUG   HandlerThread:31213 [system_info.py:__init__():46] System info init done
+2023-01-30 15:48:00,361 INFO    HandlerThread:31213 [system_monitor.py:start():151] Starting system monitor
+2023-01-30 15:48:00,361 INFO    SystemMonitor:31213 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-30 15:48:00,361 INFO    HandlerThread:31213 [system_monitor.py:probe():172] Collecting system info
+2023-01-30 15:48:00,364 DEBUG   HandlerThread:31213 [system_info.py:probe():195] Probing system
+2023-01-30 15:48:00,365 INFO    SystemMonitor:31213 [interfaces.py:start():168] Started cpu
+2023-01-30 15:48:00,372 INFO    SystemMonitor:31213 [interfaces.py:start():168] Started disk
+2023-01-30 15:48:00,372 INFO    SystemMonitor:31213 [interfaces.py:start():168] Started memory
+2023-01-30 15:48:00,374 INFO    SystemMonitor:31213 [interfaces.py:start():168] Started network
+2023-01-30 15:48:00,569 INFO    Thread-13 :31213 [dir_watcher.py:_on_file_created():275] file/dir created: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/wandb-summary.json
+2023-01-30 15:48:00,600 DEBUG   HandlerThread:31213 [system_info.py:_probe_git():180] Probing git
+2023-01-30 15:48:00,612 DEBUG   HandlerThread:31213 [system_info.py:_probe_git():188] Probing git done
+2023-01-30 15:48:00,613 DEBUG   HandlerThread:31213 [system_info.py:probe():241] Probing system done
+2023-01-30 15:48:00,613 DEBUG   HandlerThread:31213 [system_monitor.py:probe():181] {'os': 'Linux-5.10.102.1-microsoft-standard-WSL2-x86_64-with-glibc2.31', 'python': '3.9.15', 'heartbeatAt': '2023-01-30T14:48:00.364816', 'startedAt': '2023-01-30T14:47:58.261187', 'docker': None, 'cuda': None, 'args': ('--train_data', 'exercise_6/data_train.csv:latest', '--model_config', '/home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/multirun/2023-01-30/15-41-22/21/random_forest_config.yml'), 'state': 'running', 'program': '/home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/run.py', 'codePath': 'lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/run.py', 'git': {'remote': 'https://github.com/BialyMT92/cd0581-building-a-reproducible-model-workflow-exercises.git', 'commit': 'f8ceef1ef5f8d5e8ac5995dbf09d0c6d8be15827'}, 'email': None, 'root': '/home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises', 'host': 'DESKTOP-AKO1G91', 'username': 'bialekm', 'executable': '/home/bialekm/miniconda3/envs/mlflow-39aa3e680af2f4195fcf30469c71f5f670d48dfb/bin/python', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2294.688, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2294.688, 'min': 0.0, 'max': 0.0}, {'current': 2294.688, 'min': 0.0, 'max': 0.0}, {'current': 2294.688, 'min': 0.0, 'max': 0.0}, {'current': 2294.688, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 250.98248672485352, 'used': 18.28860855102539}, 'memory': {'total': 12.378826141357422}}
+2023-01-30 15:48:00,613 INFO    HandlerThread:31213 [system_monitor.py:probe():182] Finished collecting system info
+2023-01-30 15:48:00,613 INFO    HandlerThread:31213 [system_monitor.py:probe():185] Publishing system info
+2023-01-30 15:48:00,613 DEBUG   HandlerThread:31213 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-01-30 15:48:00,613 DEBUG   HandlerThread:31213 [system_info.py:_save_pip():67] Saving pip packages done
+2023-01-30 15:48:00,613 DEBUG   HandlerThread:31213 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-01-30 15:48:01,565 INFO    Thread-13 :31213 [dir_watcher.py:_on_file_created():275] file/dir created: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/requirements.txt
+2023-01-30 15:48:01,566 INFO    Thread-13 :31213 [dir_watcher.py:_on_file_created():275] file/dir created: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/conda-environment.yaml
+2023-01-30 15:48:05,569 INFO    Thread-13 :31213 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/conda-environment.yaml
+2023-01-30 15:48:05,814 DEBUG   HandlerThread:31213 [system_info.py:_save_conda():86] Saving conda packages done
+2023-01-30 15:48:05,815 INFO    HandlerThread:31213 [system_monitor.py:probe():187] Finished publishing system info
+2023-01-30 15:48:05,818 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: status_report
+2023-01-30 15:48:05,827 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:48:05,828 DEBUG   SenderThread:31213 [sender.py:send():334] send: files
+2023-01-30 15:48:05,828 INFO    SenderThread:31213 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2023-01-30 15:48:05,829 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: stop_status
+2023-01-30 15:48:05,830 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: stop_status
+2023-01-30 15:48:06,345 DEBUG   SenderThread:31213 [sender.py:send():334] send: telemetry
+2023-01-30 15:48:06,570 INFO    Thread-13 :31213 [dir_watcher.py:_on_file_created():275] file/dir created: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/wandb-metadata.json
+2023-01-30 15:48:06,571 INFO    Thread-13 :31213 [dir_watcher.py:_on_file_created():275] file/dir created: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/output.log
+2023-01-30 15:48:06,949 INFO    Thread-16 :31213 [upload_job.py:push():143] Uploaded file /tmp/tmpsanuk2r0wandb/7czxgpzx-wandb-metadata.json
+2023-01-30 15:48:07,434 DEBUG   SenderThread:31213 [sender.py:send():334] send: use_artifact
+2023-01-30 15:48:08,407 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: status_report
+2023-01-30 15:48:08,418 DEBUG   SenderThread:31213 [sender.py:send():334] send: config
+2023-01-30 15:48:08,572 INFO    Thread-13 :31213 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/output.log
+2023-01-30 15:48:10,573 INFO    Thread-13 :31213 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/output.log
+2023-01-30 15:48:13,421 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: status_report
+2023-01-30 15:48:18,422 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: status_report
+2023-01-30 15:48:20,828 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:48:23,429 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: status_report
+2023-01-30 15:48:25,829 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:48:28,445 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: status_report
+2023-01-30 15:48:29,584 INFO    Thread-13 :31213 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/config.yaml
+2023-01-30 15:48:30,839 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:48:33,951 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: status_report
+2023-01-30 15:48:35,840 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:48:38,953 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: status_report
+2023-01-30 15:48:40,186 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: summary_record
+2023-01-30 15:48:40,189 INFO    SenderThread:31213 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-30 15:48:40,593 INFO    Thread-13 :31213 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/wandb-summary.json
+2023-01-30 15:48:40,593 INFO    Thread-13 :31213 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/output.log
+2023-01-30 15:48:40,865 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:48:44,190 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: status_report
+2023-01-30 15:48:45,872 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:48:47,456 DEBUG   SenderThread:31213 [sender.py:send():334] send: files
+2023-01-30 15:48:47,456 INFO    SenderThread:31213 [sender.py:_save_file():1319] saving file media/images/feature_importance_0_b0dd8b1853cd81a3b496.png with policy now
+2023-01-30 15:48:47,462 DEBUG   SenderThread:31213 [sender.py:send():334] send: files
+2023-01-30 15:48:47,462 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: partial_history
+2023-01-30 15:48:47,463 INFO    SenderThread:31213 [sender.py:_save_file():1319] saving file media/images/confusion_matrix_0_d8e28689337d9320cc0d.png with policy now
+2023-01-30 15:48:47,466 DEBUG   SenderThread:31213 [sender.py:send():334] send: history
+2023-01-30 15:48:47,466 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: summary_record
+2023-01-30 15:48:47,469 INFO    SenderThread:31213 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-30 15:48:47,475 DEBUG   SenderThread:31213 [sender.py:send():334] send: exit
+2023-01-30 15:48:47,475 INFO    SenderThread:31213 [sender.py:send_exit():557] handling exit code: 0
+2023-01-30 15:48:47,481 INFO    SenderThread:31213 [sender.py:send_exit():559] handling runtime: 47
+2023-01-30 15:48:47,481 INFO    SenderThread:31213 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-30 15:48:47,481 INFO    SenderThread:31213 [sender.py:send_exit():565] send defer
+2023-01-30 15:48:47,482 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: defer
+2023-01-30 15:48:47,482 INFO    HandlerThread:31213 [handler.py:handle_request_defer():170] handle defer: 0
+2023-01-30 15:48:47,483 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: defer
+2023-01-30 15:48:47,483 INFO    SenderThread:31213 [sender.py:send_request_defer():581] handle sender defer: 0
+2023-01-30 15:48:47,483 INFO    SenderThread:31213 [sender.py:transition_state():585] send defer: 1
+2023-01-30 15:48:47,483 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: defer
+2023-01-30 15:48:47,483 INFO    HandlerThread:31213 [handler.py:handle_request_defer():170] handle defer: 1
+2023-01-30 15:48:47,484 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: defer
+2023-01-30 15:48:47,484 INFO    SenderThread:31213 [sender.py:send_request_defer():581] handle sender defer: 1
+2023-01-30 15:48:47,484 INFO    SenderThread:31213 [sender.py:transition_state():585] send defer: 2
+2023-01-30 15:48:47,484 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: defer
+2023-01-30 15:48:47,484 INFO    HandlerThread:31213 [handler.py:handle_request_defer():170] handle defer: 2
+2023-01-30 15:48:47,484 INFO    HandlerThread:31213 [system_monitor.py:finish():161] Stopping system monitor
+2023-01-30 15:48:47,485 DEBUG   SystemMonitor:31213 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-30 15:48:47,486 DEBUG   SystemMonitor:31213 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-30 15:48:47,486 INFO    HandlerThread:31213 [interfaces.py:finish():175] Joined cpu
+2023-01-30 15:48:47,487 DEBUG   SystemMonitor:31213 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-30 15:48:47,487 INFO    HandlerThread:31213 [interfaces.py:finish():175] Joined disk
+2023-01-30 15:48:47,488 INFO    HandlerThread:31213 [interfaces.py:finish():175] Joined memory
+2023-01-30 15:48:47,488 INFO    HandlerThread:31213 [interfaces.py:finish():175] Joined network
+2023-01-30 15:48:47,489 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: defer
+2023-01-30 15:48:47,489 INFO    SenderThread:31213 [sender.py:send_request_defer():581] handle sender defer: 2
+2023-01-30 15:48:47,489 INFO    SenderThread:31213 [sender.py:transition_state():585] send defer: 3
+2023-01-30 15:48:47,489 DEBUG   SenderThread:31213 [sender.py:send():334] send: stats
+2023-01-30 15:48:47,490 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: defer
+2023-01-30 15:48:47,490 INFO    HandlerThread:31213 [handler.py:handle_request_defer():170] handle defer: 3
+2023-01-30 15:48:47,491 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: defer
+2023-01-30 15:48:47,491 INFO    SenderThread:31213 [sender.py:send_request_defer():581] handle sender defer: 3
+2023-01-30 15:48:47,491 INFO    SenderThread:31213 [sender.py:transition_state():585] send defer: 4
+2023-01-30 15:48:47,492 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: defer
+2023-01-30 15:48:47,492 INFO    HandlerThread:31213 [handler.py:handle_request_defer():170] handle defer: 4
+2023-01-30 15:48:47,493 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: defer
+2023-01-30 15:48:47,493 INFO    SenderThread:31213 [sender.py:send_request_defer():581] handle sender defer: 4
+2023-01-30 15:48:47,493 INFO    SenderThread:31213 [sender.py:transition_state():585] send defer: 5
+2023-01-30 15:48:47,493 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: defer
+2023-01-30 15:48:47,493 INFO    HandlerThread:31213 [handler.py:handle_request_defer():170] handle defer: 5
+2023-01-30 15:48:47,494 DEBUG   SenderThread:31213 [sender.py:send():334] send: summary
+2023-01-30 15:48:47,495 INFO    SenderThread:31213 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-30 15:48:47,495 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: defer
+2023-01-30 15:48:47,495 INFO    SenderThread:31213 [sender.py:send_request_defer():581] handle sender defer: 5
+2023-01-30 15:48:47,495 INFO    SenderThread:31213 [sender.py:transition_state():585] send defer: 6
+2023-01-30 15:48:47,496 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: defer
+2023-01-30 15:48:47,496 INFO    HandlerThread:31213 [handler.py:handle_request_defer():170] handle defer: 6
+2023-01-30 15:48:47,496 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: defer
+2023-01-30 15:48:47,497 INFO    SenderThread:31213 [sender.py:send_request_defer():581] handle sender defer: 6
+2023-01-30 15:48:47,497 INFO    SenderThread:31213 [sender.py:transition_state():585] send defer: 7
+2023-01-30 15:48:47,497 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: status_report
+2023-01-30 15:48:47,497 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: defer
+2023-01-30 15:48:47,497 INFO    HandlerThread:31213 [handler.py:handle_request_defer():170] handle defer: 7
+2023-01-30 15:48:47,498 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: defer
+2023-01-30 15:48:47,498 INFO    SenderThread:31213 [sender.py:send_request_defer():581] handle sender defer: 7
+2023-01-30 15:48:47,596 INFO    Thread-13 :31213 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/wandb-summary.json
+2023-01-30 15:48:47,611 INFO    Thread-13 :31213 [dir_watcher.py:_on_file_created():275] file/dir created: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/media/images/confusion_matrix_0_d8e28689337d9320cc0d.png
+2023-01-30 15:48:47,611 INFO    Thread-13 :31213 [dir_watcher.py:_on_file_created():275] file/dir created: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/media/images/feature_importance_0_b0dd8b1853cd81a3b496.png
+2023-01-30 15:48:47,612 INFO    Thread-13 :31213 [dir_watcher.py:_on_file_created():275] file/dir created: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/media
+2023-01-30 15:48:47,612 INFO    Thread-13 :31213 [dir_watcher.py:_on_file_created():275] file/dir created: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/media/images
+2023-01-30 15:48:48,396 INFO    SenderThread:31213 [sender.py:transition_state():585] send defer: 8
+2023-01-30 15:48:48,397 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: defer
+2023-01-30 15:48:48,397 INFO    HandlerThread:31213 [handler.py:handle_request_defer():170] handle defer: 8
+2023-01-30 15:48:48,397 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: defer
+2023-01-30 15:48:48,397 INFO    SenderThread:31213 [sender.py:send_request_defer():581] handle sender defer: 8
+2023-01-30 15:48:48,438 INFO    SenderThread:31213 [sender.py:transition_state():585] send defer: 9
+2023-01-30 15:48:48,438 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: defer
+2023-01-30 15:48:48,439 INFO    HandlerThread:31213 [handler.py:handle_request_defer():170] handle defer: 9
+2023-01-30 15:48:48,439 DEBUG   SenderThread:31213 [sender.py:send():334] send: artifact
+2023-01-30 15:48:48,476 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: poll_exit
+2023-01-30 15:48:48,597 INFO    Thread-13 :31213 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/output.log
+2023-01-30 15:48:53,477 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:48:58,481 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:49:03,486 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:49:03,509 INFO    Thread-17 :31213 [upload_job.py:push():143] Uploaded file /tmp/tmpsanuk2r0wandb/b7fpjvjr-media/images/feature_importance_0_b0dd8b1853cd81a3b496.png
+2023-01-30 15:49:08,490 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:49:09,254 INFO    Thread-18 :31213 [upload_job.py:push():143] Uploaded file /tmp/tmpsanuk2r0wandb/jmvydn0n-media/images/confusion_matrix_0_d8e28689337d9320cc0d.png
+2023-01-30 15:49:10,615 ERROR   SenderThread:31213 [internal_api.py:execute():244] 400 response executing GraphQL.
+2023-01-30 15:49:10,615 ERROR   SenderThread:31213 [internal_api.py:execute():245] {"errors":[{"message":"invalid artifact name job-https___github.com_BialyMT92_cd0581-building-a-reproducible-model-workflow-exercises.git_lesson-4-training-validation-experiment-tracking_exercises_exercise_11_starter_random_forest_run.py, must be 128 characters or less","path":["createArtifact"]}],"data":{"createArtifact":null}}
+2023-01-30 15:49:10,616 ERROR   SenderThread:31213 [sender.py:send_artifact():1417] send_artifact: failed for artifact "job/job-https___github.com_BialyMT92_cd0581-building-a-reproducible-model-workflow-exercises.git_lesson-4-training-validation-experiment-tracking_exercises_exercise_11_starter_random_forest_run.py": 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+2023-01-30 15:49:10,617 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: defer
+2023-01-30 15:49:10,617 INFO    SenderThread:31213 [sender.py:send_request_defer():581] handle sender defer: 9
+2023-01-30 15:49:10,617 INFO    SenderThread:31213 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-01-30 15:49:10,618 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: status_report
+2023-01-30 15:49:11,607 INFO    SenderThread:31213 [dir_watcher.py:finish():392] scan: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files
+2023-01-30 15:49:11,608 INFO    SenderThread:31213 [dir_watcher.py:finish():406] scan save: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/output.log output.log
+2023-01-30 15:49:11,609 INFO    SenderThread:31213 [dir_watcher.py:finish():406] scan save: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/conda-environment.yaml conda-environment.yaml
+2023-01-30 15:49:11,611 INFO    SenderThread:31213 [dir_watcher.py:finish():406] scan save: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/config.yaml config.yaml
+2023-01-30 15:49:11,612 INFO    SenderThread:31213 [dir_watcher.py:finish():406] scan save: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/wandb-metadata.json wandb-metadata.json
+2023-01-30 15:49:11,613 INFO    SenderThread:31213 [dir_watcher.py:finish():406] scan save: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/requirements.txt requirements.txt
+2023-01-30 15:49:11,627 INFO    SenderThread:31213 [dir_watcher.py:finish():406] scan save: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/wandb-summary.json wandb-summary.json
+2023-01-30 15:49:11,665 INFO    SenderThread:31213 [dir_watcher.py:finish():406] scan save: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/media/images/feature_importance_0_b0dd8b1853cd81a3b496.png media/images/feature_importance_0_b0dd8b1853cd81a3b496.png
+2023-01-30 15:49:11,665 INFO    SenderThread:31213 [dir_watcher.py:finish():406] scan save: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/media/images/confusion_matrix_0_d8e28689337d9320cc0d.png media/images/confusion_matrix_0_d8e28689337d9320cc0d.png
+2023-01-30 15:49:11,665 INFO    SenderThread:31213 [sender.py:transition_state():585] send defer: 10
+2023-01-30 15:49:11,667 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: poll_exit
+2023-01-30 15:49:11,667 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: defer
+2023-01-30 15:49:11,668 INFO    HandlerThread:31213 [handler.py:handle_request_defer():170] handle defer: 10
+2023-01-30 15:49:11,668 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: defer
+2023-01-30 15:49:11,669 INFO    SenderThread:31213 [sender.py:send_request_defer():581] handle sender defer: 10
+2023-01-30 15:49:11,669 INFO    SenderThread:31213 [file_pusher.py:finish():160] shutting down file pusher
+2023-01-30 15:49:13,495 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:49:15,670 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: status_report
+2023-01-30 15:49:18,500 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:49:20,673 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: status_report
+2023-01-30 15:49:21,677 INFO    Thread-19 :31213 [upload_job.py:push():143] Uploaded file /tmp/tmpsanuk2r0wandb/3bd77zkb-media/images/feature_importance_0_b0dd8b1853cd81a3b496.png
+2023-01-30 15:49:23,504 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:49:25,682 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: status_report
+2023-01-30 15:49:28,509 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:49:30,685 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: status_report
+2023-01-30 15:49:33,513 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:49:35,687 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: status_report
+2023-01-30 15:49:38,154 INFO    Thread-20 :31213 [upload_job.py:push():143] Uploaded file /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/output.log
+2023-01-30 15:49:38,517 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:49:39,244 INFO    Thread-22 :31213 [upload_job.py:push():143] Uploaded file /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/config.yaml
+2023-01-30 15:49:39,832 INFO    Thread-23 :31213 [upload_job.py:push():143] Uploaded file /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/requirements.txt
+2023-01-30 15:49:40,022 INFO    Thread-24 :31213 [upload_job.py:push():143] Uploaded file /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/wandb-summary.json
+2023-01-30 15:49:40,688 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: status_report
+2023-01-30 15:49:43,519 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-30 15:49:45,689 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: status_report
+2023-01-30 15:49:45,941 INFO    Thread-21 :31213 [upload_job.py:push():143] Uploaded file /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/files/conda-environment.yaml
+2023-01-30 15:49:46,025 INFO    Thread-25 :31213 [upload_job.py:push():143] Uploaded file /tmp/tmpsanuk2r0wandb/937ltr6x-media/images/confusion_matrix_0_d8e28689337d9320cc0d.png
+2023-01-30 15:49:46,226 INFO    Thread-12 :31213 [sender.py:transition_state():585] send defer: 11
+2023-01-30 15:49:46,226 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: defer
+2023-01-30 15:49:46,227 INFO    HandlerThread:31213 [handler.py:handle_request_defer():170] handle defer: 11
+2023-01-30 15:49:46,227 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: defer
+2023-01-30 15:49:46,228 INFO    SenderThread:31213 [sender.py:send_request_defer():581] handle sender defer: 11
+2023-01-30 15:49:46,228 INFO    SenderThread:31213 [file_pusher.py:join():165] waiting for file pusher
+2023-01-30 15:49:46,228 INFO    SenderThread:31213 [sender.py:transition_state():585] send defer: 12
+2023-01-30 15:49:46,228 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: defer
+2023-01-30 15:49:46,229 INFO    HandlerThread:31213 [handler.py:handle_request_defer():170] handle defer: 12
+2023-01-30 15:49:46,229 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: defer
+2023-01-30 15:49:46,229 INFO    SenderThread:31213 [sender.py:send_request_defer():581] handle sender defer: 12
+2023-01-30 15:49:47,589 INFO    SenderThread:31213 [sender.py:transition_state():585] send defer: 13
+2023-01-30 15:49:47,590 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: defer
+2023-01-30 15:49:47,590 INFO    HandlerThread:31213 [handler.py:handle_request_defer():170] handle defer: 13
+2023-01-30 15:49:47,592 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: defer
+2023-01-30 15:49:47,592 INFO    SenderThread:31213 [sender.py:send_request_defer():581] handle sender defer: 13
+2023-01-30 15:49:47,593 INFO    SenderThread:31213 [sender.py:transition_state():585] send defer: 14
+2023-01-30 15:49:47,594 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: defer
+2023-01-30 15:49:47,594 INFO    HandlerThread:31213 [handler.py:handle_request_defer():170] handle defer: 14
+2023-01-30 15:49:47,596 DEBUG   SenderThread:31213 [sender.py:send():334] send: final
+2023-01-30 15:49:47,596 DEBUG   SenderThread:31213 [sender.py:send():334] send: footer
+2023-01-30 15:49:47,597 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: defer
+2023-01-30 15:49:47,597 INFO    SenderThread:31213 [sender.py:send_request_defer():581] handle sender defer: 14
+2023-01-30 15:49:47,599 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: poll_exit
+2023-01-30 15:49:47,601 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: server_info
+2023-01-30 15:49:47,603 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: poll_exit
+2023-01-30 15:49:47,604 DEBUG   SenderThread:31213 [sender.py:send_request():361] send_request: server_info
+2023-01-30 15:49:47,615 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: get_summary
+2023-01-30 15:49:47,616 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: sampled_history
+2023-01-30 15:49:48,872 INFO    MainThread:31213 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2023-01-30 15:49:48,873 INFO    MainThread:31213 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2023-01-30 15:49:48,874 INFO    MainThread:31213 [wandb_run.py:_footer_sync_info():3383] logging synced files
+2023-01-30 15:49:48,876 DEBUG   HandlerThread:31213 [handler.py:handle_request():144] handle_request: shutdown
+2023-01-30 15:49:48,877 INFO    HandlerThread:31213 [handler.py:finish():841] shutting down handler
+2023-01-30 15:49:49,603 INFO    WriterThread:31213 [datastore.py:close():299] close: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20230130_154758-ewfn5nvx/run-ewfn5nvx.wandb
+2023-01-30 15:49:49,872 INFO    SenderThread:31213 [sender.py:finish():1491] shutting down sender
+2023-01-30 15:49:49,872 INFO    SenderThread:31213 [file_pusher.py:finish():160] shutting down file pusher
+2023-01-30 15:49:49,872 INFO    SenderThread:31213 [file_pusher.py:join():165] waiting for file pusher

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/d71f28daf3284eefa44989ffefe50218/artifacts
+end_time: 1675090068253
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d71f28daf3284eefa44989ffefe50218
+run_name: burly-frog-881
+run_uuid: d71f28daf3284eefa44989ffefe50218
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675089867425
+status: 3
+tags: []
+user_id: bialekm

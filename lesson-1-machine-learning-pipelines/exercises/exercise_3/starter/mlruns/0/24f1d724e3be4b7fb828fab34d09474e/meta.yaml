@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/24f1d724e3be4b7fb828fab34d09474e/artifacts
+end_time: 1674413631558
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 24f1d724e3be4b7fb828fab34d09474e
+run_name: caring-kite-830
+run_uuid: 24f1d724e3be4b7fb828fab34d09474e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674413588729
+status: 3
+tags: []
+user_id: bialekm

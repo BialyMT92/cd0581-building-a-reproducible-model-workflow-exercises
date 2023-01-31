@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/5c68f1ca3b314cf992e828fa3a8cc5cc/artifacts
+end_time: 1675090330368
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5c68f1ca3b314cf992e828fa3a8cc5cc
+run_name: honorable-bass-373
+run_uuid: 5c68f1ca3b314cf992e828fa3a8cc5cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675090260611
+status: 3
+tags: []
+user_id: bialekm

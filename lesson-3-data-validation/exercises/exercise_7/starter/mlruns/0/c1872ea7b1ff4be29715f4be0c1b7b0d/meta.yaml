@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_7/starter/mlruns/0/c1872ea7b1ff4be29715f4be0c1b7b0d/artifacts
+end_time: 1674738552278
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c1872ea7b1ff4be29715f4be0c1b7b0d
+run_name: whimsical-loon-738
+run_uuid: c1872ea7b1ff4be29715f4be0c1b7b0d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674738535973
+status: 3
+tags: []
+user_id: bialekm

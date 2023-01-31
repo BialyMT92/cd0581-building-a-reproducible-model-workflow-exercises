@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/fc59fd7385cb4e8ca260b382e88bf85c/artifacts
+end_time: 1675090399300
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fc59fd7385cb4e8ca260b382e88bf85c
+run_name: vaunted-goat-587
+run_uuid: fc59fd7385cb4e8ca260b382e88bf85c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675090331502
+status: 3
+tags: []
+user_id: bialekm

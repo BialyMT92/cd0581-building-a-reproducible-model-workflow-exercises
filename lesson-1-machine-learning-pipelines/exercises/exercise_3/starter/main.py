@@ -8,7 +8,7 @@ from omegaconf import DictConfig
 @hydra.main(config_name='config')
 def go(config: DictConfig):
 
-    # Setup the wandb experiment. All runs will be grouped under this name
+    # Set up the wandb experiment. All runs will be grouped under this name
     os.environ["WANDB_PROJECT"] = config["main"]["project_name"]
     os.environ["WANDB_RUN_GROUP"] = config["main"]["experiment_name"]
 
@@ -26,6 +26,16 @@ def go(config: DictConfig):
         },
     )
 
+    _ = mlflow.run(
+        os.path.join(root_path, "process_data"),
+        "main",
+        parameters={
+            "input_artifact": "iris.csv:latest",
+            "artifact_name": "cleaned_data.csv",
+            "artifact_type": "processed_data",
+            "artifact_description": "Cleaned data"
+        },
+    )
     ##################
     # Your code here: use the artifact we created in the previous step as input for the `process_data` step
     # and produce a new artifact called "cleaned_data".

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/0059ddfe023f4e20a5244577e1420b8e/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0059ddfe023f4e20a5244577e1420b8e
+run_name: bittersweet-rat-787
+run_uuid: 0059ddfe023f4e20a5244577e1420b8e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674647834878
+status: 1
+tags: []
+user_id: bialekm

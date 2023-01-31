@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/dcd1361e9b604a00b624fc8dd4cd5084/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dcd1361e9b604a00b624fc8dd4cd5084
+run_name: upbeat-kit-242
+run_uuid: dcd1361e9b604a00b624fc8dd4cd5084
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674647658877
+status: 1
+tags: []
+user_id: bialekm

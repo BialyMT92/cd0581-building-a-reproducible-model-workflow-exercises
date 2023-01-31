@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/98b0365cf1ad43248f1d49fed1915367/artifacts
+end_time: 1675105188419
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 98b0365cf1ad43248f1d49fed1915367
+run_name: indecisive-panda-351
+run_uuid: 98b0365cf1ad43248f1d49fed1915367
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675104422357
+status: 4
+tags: []
+user_id: bialekm

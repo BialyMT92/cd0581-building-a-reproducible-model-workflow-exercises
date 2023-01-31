@@ -1,0 +1,26 @@
+2023-01-26 20:03:01,926 INFO    MainThread:22413 [wandb_setup.py:_flush():68] Configure stats pid to 22413
+2023-01-26 20:03:01,926 INFO    MainThread:22413 [wandb_setup.py:_flush():68] Loading settings from /home/bialekm/.config/wandb/settings
+2023-01-26 20:03:01,927 INFO    MainThread:22413 [wandb_setup.py:_flush():68] Loading settings from /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/settings
+2023-01-26 20:03:01,927 INFO    MainThread:22413 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'run_group': 'dev', 'project': 'exercise_10', '_require_service': 'True'}
+2023-01-26 20:03:01,927 INFO    MainThread:22413 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/run.py', 'program': '/home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/run.py'}
+2023-01-26 20:03:01,928 INFO    MainThread:22413 [wandb_init.py:_log_setup():478] Logging user logs to /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20230126_200301-s4s7ff60/logs/debug.log
+2023-01-26 20:03:01,928 INFO    MainThread:22413 [wandb_init.py:_log_setup():479] Logging internal logs to /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20230126_200301-s4s7ff60/logs/debug-internal.log
+2023-01-26 20:03:01,929 INFO    MainThread:22413 [wandb_init.py:init():518] calling init triggers
+2023-01-26 20:03:01,929 INFO    MainThread:22413 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2023-01-26 20:03:01,930 INFO    MainThread:22413 [wandb_init.py:init():571] starting backend
+2023-01-26 20:03:01,931 INFO    MainThread:22413 [wandb_init.py:init():575] setting up manager
+2023-01-26 20:03:01,935 INFO    MainThread:22413 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-01-26 20:03:01,939 INFO    MainThread:22413 [wandb_init.py:init():582] backend started and connected
+2023-01-26 20:03:01,946 INFO    MainThread:22413 [wandb_init.py:init():670] updated telemetry
+2023-01-26 20:03:01,965 INFO    MainThread:22413 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2023-01-26 20:03:02,637 INFO    MainThread:22413 [wandb_run.py:_on_init():2121] communicating current version
+2023-01-26 20:03:02,831 INFO    MainThread:22413 [wandb_run.py:_on_init():2125] got version response 
+2023-01-26 20:03:02,831 INFO    MainThread:22413 [wandb_init.py:init():758] starting run threads in backend
+2023-01-26 20:03:06,554 INFO    MainThread:22413 [wandb_run.py:_console_start():2101] atexit reg
+2023-01-26 20:03:06,556 INFO    MainThread:22413 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2023-01-26 20:03:06,556 INFO    MainThread:22413 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2023-01-26 20:03:06,557 INFO    MainThread:22413 [wandb_run.py:_redirect():2046] Redirects installed.
+2023-01-26 20:03:06,559 INFO    MainThread:22413 [wandb_init.py:init():798] run started, returning control to user process
+2023-01-26 20:03:08,384 INFO    MainThread:22413 [wandb_run.py:_config_callback():1249] config_cb None None {'n_estimators': 100, 'criterion': 'gini', 'max_depth': None, 'min_samples_split': 2, 'min_samples_leaf': 1, 'min_weight_fraction_leaf': 0.0, 'max_features': 'auto', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_impurity_split': None, 'bootstrap': True, 'oob_score': False, 'n_jobs': None, 'random_state': None, 'verbose': 0, 'warm_start': False, 'class_weight': None, 'ccp_alpha': 0.0, 'max_samples': None}
+2023-01-26 20:03:53,462 WARNING MsgRouterThr:22413 [router.py:message_loop():77] message_loop has been closed

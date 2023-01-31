@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/abde3599ebef4105b064c750f99de144/artifacts
+end_time: 1675088045066
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: abde3599ebef4105b064c750f99de144
+run_name: invincible-carp-326
+run_uuid: abde3599ebef4105b064c750f99de144
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675088018922
+status: 3
+tags: []
+user_id: bialekm

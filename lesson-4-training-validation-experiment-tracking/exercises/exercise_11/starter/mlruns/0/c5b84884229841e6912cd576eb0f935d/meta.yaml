@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/c5b84884229841e6912cd576eb0f935d/artifacts
+end_time: 1675090259877
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c5b84884229841e6912cd576eb0f935d
+run_name: redolent-horse-440
+run_uuid: c5b84884229841e6912cd576eb0f935d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675090191169
+status: 3
+tags: []
+user_id: bialekm

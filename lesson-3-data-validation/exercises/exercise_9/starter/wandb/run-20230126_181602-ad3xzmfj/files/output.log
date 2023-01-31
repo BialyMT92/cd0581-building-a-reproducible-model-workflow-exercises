@@ -1,0 +1,9 @@
+
+<frozen importlib._bootstrap>:1049: ImportWarning: ImportHookFinder.find_spec() not found; falling back to find_module()
+[1m========================================================================================================= test session starts ==========================================================================================================
+platform linux -- Python 3.11.0, pytest-7.2.1, pluggy-1.0.0 -- /home/bialekm/miniconda3/envs/mlflow-69e8477b36e2c73bc679b76363ac6e8a9ee7fd47/bin/python3.11
+cachedir: .pytest_cache
+rootdir: /home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_9/starter
+[1mcollected 1 item                                                                                                                                                                                                                       
+test_data.py::test_kolmogorov_smirnov [32mPASSED
+[32m========================================================================================================== [1m1 passed[22m in 7.19s ===========================================================================================================

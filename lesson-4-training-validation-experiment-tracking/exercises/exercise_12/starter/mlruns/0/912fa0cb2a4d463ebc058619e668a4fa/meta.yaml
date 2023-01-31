@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/912fa0cb2a4d463ebc058619e668a4fa/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 912fa0cb2a4d463ebc058619e668a4fa
+run_name: big-dolphin-434
+run_uuid: 912fa0cb2a4d463ebc058619e668a4fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675104260565
+status: 1
+tags: []
+user_id: bialekm

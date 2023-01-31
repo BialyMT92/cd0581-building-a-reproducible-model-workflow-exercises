@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/b66380197f9941c1854ff4ca00f508dd/artifacts
+end_time: 1675089773638
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b66380197f9941c1854ff4ca00f508dd
+run_name: fearless-ape-606
+run_uuid: b66380197f9941c1854ff4ca00f508dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675089734679
+status: 3
+tags: []
+user_id: bialekm

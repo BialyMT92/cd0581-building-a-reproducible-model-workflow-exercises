@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/a5459e2ed0134b06af421e7be9f9f18b/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a5459e2ed0134b06af421e7be9f9f18b
+run_name: secretive-wren-651
+run_uuid: a5459e2ed0134b06af421e7be9f9f18b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674586493573
+status: 1
+tags: []
+user_id: bialekm

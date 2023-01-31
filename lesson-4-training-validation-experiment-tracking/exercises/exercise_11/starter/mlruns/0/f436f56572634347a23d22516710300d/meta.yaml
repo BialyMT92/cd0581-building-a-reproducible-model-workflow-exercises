@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/f436f56572634347a23d22516710300d/artifacts
+end_time: 1675090195749
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f436f56572634347a23d22516710300d
+run_name: flawless-lark-877
+run_uuid: f436f56572634347a23d22516710300d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675090086815
+status: 3
+tags: []
+user_id: bialekm
