@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_15/mlruns/0/7824d29e5ca1403e8ed4c7a55a32a7ee/artifacts
+end_time: 1675241662704
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7824d29e5ca1403e8ed4c7a55a32a7ee
+run_name: able-penguin-55
+run_uuid: 7824d29e5ca1403e8ed4c7a55a32a7ee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675241611071
+status: 3
+tags: []
+user_id: bialekm

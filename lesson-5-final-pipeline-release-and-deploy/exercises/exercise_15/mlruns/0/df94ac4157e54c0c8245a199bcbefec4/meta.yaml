@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bialekm/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_15/mlruns/0/df94ac4157e54c0c8245a199bcbefec4/artifacts
+end_time: 1675241588193
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: df94ac4157e54c0c8245a199bcbefec4
+run_name: enchanting-deer-693
+run_uuid: df94ac4157e54c0c8245a199bcbefec4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675241547586
+status: 3
+tags: []
+user_id: bialekm
